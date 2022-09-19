@@ -1,6 +1,6 @@
 # Frontend Mentor - Minimalist portfolio website solution
 
-This is a solution to the [Minimalist portfolio website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/minimalist-portfolio-website-LMy-ZRyiE). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+This is a solution to the [Minimalist portfolio website challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/minimalist-portfolio-website-LMy-ZRyiE). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
 
 ## Table of contents
 
@@ -37,7 +37,7 @@ Users should be able to:
 
 Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
 
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
+Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it.
 
 Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
 
@@ -65,22 +65,30 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+- Flex items have a default align-self value of stretch. So whether your flex-item (child element) is an image or another HTML element, it gets stretched horizontally by default [TechStacker].
+
+- The file path to an image folder that is outside of first-level nested folders start with "../images/{the rest of path}". With second-level nested folders, start with "../../images/{the rest of path}"
+
+- To close the dropdown menu when the app re-renders, use the useLocation hook (from react-router-dom) and useEffect (from react). After each re-render, useLocation returns a new object with the current location of which page you are on in the app. useEffect will close the menu upon re-rendering if current location is in the dependency array.
+
+- With react-router, it's best to wrap the App component in the index.js file with BrowserRouter.
 
 To see how you can add code snippets, see below:
 
 ```html
 <h1>Some HTML code I'm proud of</h1>
 ```
+
 ```css
 .proud-of-this-css {
   color: papayawhip;
 }
 ```
+
 ```js
 const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+  console.log("🎉");
+};
 ```
 
 If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
@@ -95,8 +103,8 @@ Use this section to outline areas that you want to continue focusing on in futur
 
 ### Useful resources
 
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Techstacker](https://techstacker.com/how-to-prevent-image-stretching-with-flexbox/) - This article explained how to get images to shrink when using flexbox.
+- [Smooth Scroll without dependency](https://www.youtube.com/watch?v=zVzKEVmigPY&t=1031s) - This video tutorial taught me how to get the browser to smoothly scroll to a section within the page after clicking a button. No need to install any packages.
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

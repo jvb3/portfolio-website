@@ -1,0 +1,23 @@
+@import "../base-styles";
+
+.profile {
+  &__img {
+    width: 100%;
+    max-width: 100%;
+    padding-bottom: 32px;
+  }
+
+  &__heading {
+    font-size: $h2;
+    font-weight: $heading-bold;
+    font-family: $heading-ff;
+    padding: 24px 0 24px 0;
+  }
+  &__content {
+    line-height: 30px;
+    padding-bottom: 24px;
+  }
+  &__btn-container {
+    padding-bottom: 40px;
+  }
+}

@@ -1,0 +1,17 @@
+@import "../base-styles";
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  &__heading {
+    font-size: $h2;
+    font-weight: $heading-bold;
+    font-family: $heading-ff;
+    line-height: 42px;
+    padding: 0 2rem 2rem 2rem;
+    text-align: center;
+  }
+}

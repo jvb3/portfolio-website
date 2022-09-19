@@ -1,0 +1,108 @@
+// ##COLORS##
+
+// --PRIMARY
+
+$cyan: #5fb4a2;
+$dark-blue: #203a4c;
+$dark-gray-blue: #33323d;
+
+//--SEOCONDARY
+
+$light-gray: #eaeaeb;
+$lighter-gray: #fafafa;
+$red: #f43030;
+
+//##TYPOGRAPHY##
+
+//--SIZE
+
+$h1: 50px;
+$h2: 40px;
+$h3: 32px;
+$body-md: 16px;
+$body-lg: 15px;
+
+//--FONT FAMILY
+
+$heading-ff: "Ibarra Real Nova", serif;
+$heading-bold: 700;
+$heading-regular: 400;
+$body-ff: "Public Sans", sans-serif;
+$body-regular: 400;
+
+body {
+  font-family: $body-ff;
+  font-weight: $body-regular;
+  font-size: $body-md;
+  background-color: rgb(215, 215, 215);
+}
+
+.container {
+  width: 375px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 375px;
+  background-color: white;
+  margin: 0 auto;
+  &__mobile-navbar {
+    padding: 1rem;
+  }
+  &__front-page-header {
+    padding: 0 1rem 2rem 1rem;
+  }
+  &__about-me {
+    padding: 0 1rem 2rem 1rem;
+  }
+  &__contact {
+    padding: 0 1rem 2rem 1rem;
+  }
+  &__project {
+    padding: 0 1rem 2rem 1rem;
+  }
+  &__contact-page {
+    padding: 0 1rem 2rem 1rem;
+  }
+  &__contact-form {
+    padding: 0 1rem 2rem 1rem;
+  }
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  background-color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: solid 1px black;
+}
+.button:hover {
+  cursor: pointer;
+}
+
+.hr-divider {
+  height: 1px;
+  width: 343px;
+  background-color: #33323d;
+  opacity: 20%;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: $h2;
+  font-weight: $heading-bold;
+  font-family: $heading-ff;
+  padding: 24px 0 24px 0;
+}
+.content {
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}

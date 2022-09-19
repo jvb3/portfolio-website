@@ -1,0 +1,853 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+ul[role=list],
+ol[role=list] {
+  list-style: none;
+}
+
+textarea {
+  resize: none;
+}
+
+.mobile-nav-bar {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+.mobile-nav-bar__img {
+  align-self: center;
+}
+.mobile-nav-bar__close {
+  font-size: 20px;
+}
+.mobile-nav-bar__img:hover {
+  cursor: pointer;
+}
+.mobile-nav-bar__close:hover {
+  cursor: pointer;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: rgb(215, 215, 215);
+}
+
+.container {
+  width: 375px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 375px;
+  background-color: white;
+  margin: 0 auto;
+}
+.grid-container__mobile-navbar {
+  padding: 1rem;
+}
+.grid-container__front-page-header {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__about-me {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__project {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-page {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-form {
+  padding: 0 1rem 2rem 1rem;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  background-color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: solid 1px black;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.hr-divider {
+  height: 1px;
+  width: 343px;
+  background-color: #33323d;
+  opacity: 20%;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Ibarra Real Nova", serif;
+  padding: 24px 0 24px 0;
+}
+
+.content {
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+.header__img {
+  width: 100%;
+  max-width: 100%;
+}
+.header__text {
+  font-family: "Ibarra Real Nova", serif;
+  font-size: 40px;
+  font-weight: 700;
+  padding: 24px 0 24px 0;
+}
+.header__button {
+  background-color: #203a4c !important;
+  color: white;
+  display: flex;
+  align-items: center;
+  border: none;
+  padding: 0;
+}
+.header__logo-container {
+  flex-basis: 48px;
+  height: 48px;
+  background-color: #1a3242;
+}
+.header__btn-logo {
+  padding-top: 16px;
+  padding-left: 14px;
+}
+.header__btn-text {
+  padding-left: 33px;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: rgb(215, 215, 215);
+}
+
+.container {
+  width: 375px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 375px;
+  background-color: white;
+  margin: 0 auto;
+}
+.grid-container__mobile-navbar {
+  padding: 1rem;
+}
+.grid-container__front-page-header {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__about-me {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__project {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-page {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-form {
+  padding: 0 1rem 2rem 1rem;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  background-color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: solid 1px black;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.hr-divider {
+  height: 1px;
+  width: 343px;
+  background-color: #33323d;
+  opacity: 20%;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Ibarra Real Nova", serif;
+  padding: 24px 0 24px 0;
+}
+
+.content {
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: rgb(215, 215, 215);
+}
+
+.container {
+  width: 375px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 375px;
+  background-color: white;
+  margin: 0 auto;
+}
+.grid-container__mobile-navbar {
+  padding: 1rem;
+}
+.grid-container__front-page-header {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__about-me {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__project {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-page {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-form {
+  padding: 0 1rem 2rem 1rem;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  background-color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: solid 1px black;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.hr-divider {
+  height: 1px;
+  width: 343px;
+  background-color: #33323d;
+  opacity: 20%;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Ibarra Real Nova", serif;
+  padding: 24px 0 24px 0;
+}
+
+.content {
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+.profile__img {
+  width: 100%;
+  max-width: 100%;
+  padding-bottom: 32px;
+}
+.profile__heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Ibarra Real Nova", serif;
+  padding: 24px 0 24px 0;
+}
+.profile__content {
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+.profile__btn-container {
+  padding-bottom: 40px;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: rgb(215, 215, 215);
+}
+
+.container {
+  width: 375px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 375px;
+  background-color: white;
+  margin: 0 auto;
+}
+.grid-container__mobile-navbar {
+  padding: 1rem;
+}
+.grid-container__front-page-header {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__about-me {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__project {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-page {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-form {
+  padding: 0 1rem 2rem 1rem;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  background-color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: solid 1px black;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.hr-divider {
+  height: 1px;
+  width: 343px;
+  background-color: #33323d;
+  opacity: 20%;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Ibarra Real Nova", serif;
+  padding: 24px 0 24px 0;
+}
+
+.content {
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact__heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Ibarra Real Nova", serif;
+  line-height: 42px;
+  padding: 0 2rem 2rem 2rem;
+  text-align: center;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: rgb(215, 215, 215);
+}
+
+.container {
+  width: 375px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 375px;
+  background-color: white;
+  margin: 0 auto;
+}
+.grid-container__mobile-navbar {
+  padding: 1rem;
+}
+.grid-container__front-page-header {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__about-me {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__project {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-page {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-form {
+  padding: 0 1rem 2rem 1rem;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  background-color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: solid 1px black;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.hr-divider {
+  height: 1px;
+  width: 343px;
+  background-color: #33323d;
+  opacity: 20%;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Ibarra Real Nova", serif;
+  padding: 24px 0 24px 0;
+}
+
+.content {
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+.footer {
+  background-color: #33323d;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 2.5rem;
+}
+.footer__list-container {
+  padding-left: 10px;
+}
+.footer__list-item {
+  color: white;
+  list-style: none;
+  padding-top: 20px;
+  text-align: center;
+  letter-spacing: 2px;
+  font-size: 12px;
+}
+.footer__icon {
+  display: inline;
+  margin-left: 15px;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: rgb(215, 215, 215);
+}
+
+.container {
+  width: 375px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 375px;
+  background-color: white;
+  margin: 0 auto;
+}
+.grid-container__mobile-navbar {
+  padding: 1rem;
+}
+.grid-container__front-page-header {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__about-me {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__project {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-page {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-form {
+  padding: 0 1rem 2rem 1rem;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  background-color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: solid 1px black;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.hr-divider {
+  height: 1px;
+  width: 343px;
+  background-color: #33323d;
+  opacity: 20%;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Ibarra Real Nova", serif;
+  padding: 24px 0 24px 0;
+}
+
+.content {
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+.menu__list-container {
+  height: 300px;
+  background-color: black;
+  width: 223px;
+  height: 186px;
+  background-color: #33323d;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+  padding: 0;
+  position: absolute;
+  top: -20px;
+  right: 16px;
+}
+.menu__list-item {
+  list-style: none;
+  color: white;
+  font-weight: 400;
+  font-size: 12px;
+  letter-spacing: 2px;
+}
+
+.project__img {
+  width: 100%;
+  max-width: 100%;
+}
+.project__button {
+  padding-bottom: 1rem;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: rgb(215, 215, 215);
+}
+
+.container {
+  width: 375px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 375px;
+  background-color: white;
+  margin: 0 auto;
+}
+.grid-container__mobile-navbar {
+  padding: 1rem;
+}
+.grid-container__front-page-header {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__about-me {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__project {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-page {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-form {
+  padding: 0 1rem 2rem 1rem;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  background-color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: solid 1px black;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.hr-divider {
+  height: 1px;
+  width: 343px;
+  background-color: #33323d;
+  opacity: 20%;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Ibarra Real Nova", serif;
+  padding: 24px 0 24px 0;
+}
+
+.content {
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.form__text {
+  font-weight: 700;
+  font-family: "Public Sans", sans-serif;
+  font-size: 13px;
+}
+.form__input {
+  width: 311px;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  background-color: rgb(215, 215, 215);
+}
+
+.container {
+  width: 375px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 375px;
+  background-color: white;
+  margin: 0 auto;
+}
+.grid-container__mobile-navbar {
+  padding: 1rem;
+}
+.grid-container__front-page-header {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__about-me {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__project {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-page {
+  padding: 0 1rem 2rem 1rem;
+}
+.grid-container__contact-form {
+  padding: 0 1rem 2rem 1rem;
+}
+
+.button {
+  width: 200px;
+  height: 48px;
+  background-color: white;
+  font-size: 12px;
+  letter-spacing: 2px;
+  border: solid 1px black;
+}
+
+.button:hover {
+  cursor: pointer;
+}
+
+.hr-divider {
+  height: 1px;
+  width: 343px;
+  background-color: #33323d;
+  opacity: 20%;
+  margin-top: 2rem;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: 700;
+  font-family: "Ibarra Real Nova", serif;
+  padding: 24px 0 24px 0;
+}
+
+.content {
+  line-height: 30px;
+  padding-bottom: 24px;
+}
+
+a,
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  text-decoration: none;
+}/*# sourceMappingURL=styles.css.map */
