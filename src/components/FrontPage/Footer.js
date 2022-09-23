@@ -16,7 +16,9 @@ const Footer = () => {
           <Link to="/portfolio-index">
             <li className="footer__list-item">PORTFOLIO</li>
           </Link>
-          <li className="footer__list-item">CONTACT ME</li>
+          <Link to="/contact-me">
+            <li className="footer__list-item">CONTACT ME</li>
+          </Link>
         </ul>
         <div className="footer__icon-container">
           <img className="footer__icon" src={githubLogo} alt="#" />

@@ -8,18 +8,30 @@ const ContactForm = () => {
         <form className="form">
           <div className="form__input-container">
             <p className="form__text">Name</p>
-            <input className="form__input" />
+            <input
+              type="text"
+              placeholder="Jane Appleseed"
+              className="form__input"
+            />
           </div>
           <div className="form__input-container">
             <p className="form__text">Email Address</p>
-            <input className="form__input" />
+            <input
+              type="text"
+              placeholder="email@example.com"
+              className="form__input"
+            />
           </div>
           <div className="form__input-container">
             <p className="form__text">Message</p>
-            <textarea className="form__input" />
+            <textarea
+              type="text"
+              placeholder="How can I help?"
+              className="form__input"
+            />
           </div>
-          <button className="button header__button">Send Message</button>
         </form>
+        <button className="button button-blue">Send Message</button>
       </section>
     </div>
   );

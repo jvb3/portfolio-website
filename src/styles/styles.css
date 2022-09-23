@@ -123,7 +123,18 @@ body {
   border: solid 1px black;
 }
 
-.button:hover {
+.button-blue {
+  background-color: #203a4c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+button:hover {
   cursor: pointer;
 }
 
@@ -153,6 +164,29 @@ a:active,
 a:visited,
 a:focus {
   text-decoration: none;
+}
+
+::-moz-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
 }
 
 .header__img {
@@ -234,7 +268,18 @@ body {
   border: solid 1px black;
 }
 
-.button:hover {
+.button-blue {
+  background-color: #203a4c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+button:hover {
   cursor: pointer;
 }
 
@@ -264,6 +309,29 @@ a:active,
 a:visited,
 a:focus {
   text-decoration: none;
+}
+
+::-moz-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
 }
 
 body {
@@ -314,7 +382,18 @@ body {
   border: solid 1px black;
 }
 
-.button:hover {
+.button-blue {
+  background-color: #203a4c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+button:hover {
   cursor: pointer;
 }
 
@@ -344,6 +423,29 @@ a:active,
 a:visited,
 a:focus {
   text-decoration: none;
+}
+
+::-moz-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
 }
 
 .profile__img {
@@ -413,7 +515,18 @@ body {
   border: solid 1px black;
 }
 
-.button:hover {
+.button-blue {
+  background-color: #203a4c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+button:hover {
   cursor: pointer;
 }
 
@@ -443,6 +556,29 @@ a:active,
 a:visited,
 a:focus {
   text-decoration: none;
+}
+
+::-moz-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
 }
 
 .contact {
@@ -508,7 +644,18 @@ body {
   border: solid 1px black;
 }
 
-.button:hover {
+.button-blue {
+  background-color: #203a4c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+button:hover {
   cursor: pointer;
 }
 
@@ -538,6 +685,29 @@ a:active,
 a:visited,
 a:focus {
   text-decoration: none;
+}
+
+::-moz-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
 }
 
 .footer {
@@ -613,7 +783,18 @@ body {
   border: solid 1px black;
 }
 
-.button:hover {
+.button-blue {
+  background-color: #203a4c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+button:hover {
   cursor: pointer;
 }
 
@@ -643,6 +824,29 @@ a:active,
 a:visited,
 a:focus {
   text-decoration: none;
+}
+
+::-moz-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
 }
 
 .menu__list-container {
@@ -725,7 +929,18 @@ body {
   border: solid 1px black;
 }
 
-.button:hover {
+.button-blue {
+  background-color: #203a4c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+button:hover {
   cursor: pointer;
 }
 
@@ -757,6 +972,29 @@ a:focus {
   text-decoration: none;
 }
 
+::-moz-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
+}
+
 .form {
   display: flex;
   flex-direction: column;
@@ -767,9 +1005,16 @@ a:focus {
   font-weight: 700;
   font-family: "Public Sans", sans-serif;
   font-size: 13px;
+  padding-bottom: 8px;
 }
 .form__input {
   width: 311px;
+  border: none;
+  outline: none;
+  padding: 8px 0 8px 8px;
+  color: #33323d;
+  opacity: 40%;
+  background-color: #cacaca;
 }
 
 body {
@@ -820,7 +1065,18 @@ body {
   border: solid 1px black;
 }
 
-.button:hover {
+.button-blue {
+  background-color: #203a4c;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  margin-top: 1rem;
+  margin-left: 1rem;
+}
+
+button:hover {
   cursor: pointer;
 }
 
@@ -850,4 +1106,72 @@ a:active,
 a:visited,
 a:focus {
   text-decoration: none;
+}
+
+::-moz-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+  opacity: 1;
+}
+
+::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+:-ms-input-placeholder {
+  color: black;
+}
+
+::-ms-input-placeholder {
+  color: black;
+}
+
+.browser {
+  display: flex;
+  flex-direction: row;
+}
+.browser__button {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  border: 0.5px solid rgb(203, 202, 202);
+  background-color: white;
+  margin-bottom: 64px;
+}
+.browser__button-left {
+  flex-basis: 50%;
+  border-left: none;
+}
+.browser__button-right {
+  flex-basis: 50%;
+  border-right: none;
+  align-items: flex-end;
+}
+.browser__title {
+  font-family: "Ibarra Real Nova", serif;
+  font-weight: 400;
+  font-size: 32px;
+}
+.browser__subtitle {
+  font-family: "Public Sans", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  opacity: 50%;
+}
+
+.project__image {
+  width: 100%;
+  max-width: 100%;
+}
+.project .content-green {
+  color: #5fb4a2;
+}
+.project__preview-image {
+  padding-top: 32px;
+  padding-bottom: 64px;
 }/*# sourceMappingURL=styles.css.map */

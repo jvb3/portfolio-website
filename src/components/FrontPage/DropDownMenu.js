@@ -12,7 +12,9 @@ const DropDownMenu = () => {
         <Link to="/portfolio-index">
           <li className="menu__list-item">PORTFOLIO</li>
         </Link>
-        <li className="menu__list-item">CONTACT ME</li>
+        <Link to="/contact-me">
+          <li className="menu__list-item">CONTACT ME</li>
+        </Link>
       </ul>
     </section>
   );
