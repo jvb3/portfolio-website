@@ -61,7 +61,7 @@ textarea {
   cursor: pointer;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .mobile-nav-bar {
     width: 375px;
     margin: 0 auto;
@@ -187,7 +187,7 @@ a:focus {
   color: black;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .nav-bar {
     display: none !important;
   }
@@ -480,7 +480,7 @@ a:focus {
   color: black;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .profile__img {
     width: 100%;
     max-width: 100%;
@@ -686,7 +686,7 @@ a:focus {
   color: black;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .contact {
     display: grid;
     place-items: center;
@@ -818,7 +818,7 @@ a:focus {
   color: black;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .footer {
     background-color: #33323d !important;
     height: 350px;
@@ -972,7 +972,7 @@ a:focus {
   letter-spacing: 2px;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .img-tablet {
     display: none;
   }
@@ -1194,7 +1194,7 @@ a:focus {
   color: black;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .form {
     display: flex;
     flex-direction: column;
@@ -1328,7 +1328,7 @@ a:focus {
   color: black;
 }
 
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .contact-header {
     padding: 0 1rem 0 1rem;
   }
@@ -1402,7 +1402,7 @@ a:focus {
     min-width: 700px;
   }
 }
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .project__static-previews-desktop {
     display: none;
   }
@@ -1450,7 +1450,7 @@ a:focus {
     font-size: 32px;
   }
 }
-@media (min-width: 375px) and (min-width: 700px) {
+@media (min-width: 0px) and (min-width: 700px) {
   .mobile-nav-bar {
     display: none;
   }
@@ -1578,7 +1578,7 @@ a:focus {
     padding: 0;
   }
 }
-@media (min-width: 375px) {
+@media (min-width: 0px) {
   .front-page-grid {
     position: relative;
   }
