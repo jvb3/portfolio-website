@@ -1,10 +1,11 @@
 import React from "react";
 import FyloHeader from "./FyloHeader";
-import MobileNavBar from "../../FrontPage/MobileNavBar";
+import MobileNavBar from "../../../MobileNavBar";
+import NavBar from "../../../NavBar";
 import DropDownMenu from "../../FrontPage/DropDownMenu";
 import FyloBackground from "./FyloBackground";
 import FyloPreviews from "./FyloPreviews";
-import FyloBrowserBtn from "./FyloBrowserBtn";
+import BrowserBtn from "../../../BrowserBtn";
 import Contact from "../../FrontPage/Contact";
 import Footer from "../../FrontPage/Footer";
 
@@ -14,16 +15,17 @@ const FyloGrid = ({ handleMenu, showMenu }) => {
       <section className="container grid-container">
         <MobileNavBar handleMenu={handleMenu} showMenu={showMenu} />
         {showMenu ? (
-          <section className="mobile-nav-bar">
+          <section>
             <DropDownMenu />
           </section>
         ) : (
           ""
         )}
+        <NavBar />
         <FyloHeader />
         <FyloBackground />
         <FyloPreviews />
-        <FyloBrowserBtn />
+        <BrowserBtn />
         <Contact />
         <Footer />
       </section>

@@ -1,34 +1,63 @@
-.browser {
-  display: flex;
-  flex-direction: row;
+//BREAKPOINTS
 
-  &__button {
+$breakpoints: (
+  "sm": 375px,
+  "md": 700px,
+);
+
+//MIXINS
+
+@mixin sm {
+  @media (min-width: map-get($breakpoints, "sm")) {
+    @content;
+  }
+}
+
+@mixin md {
+  @media (min-width: map-get($breakpoints, "md")) {
+    @content;
+  }
+}
+
+@include sm {
+  .browser {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
 
-    gap: 14px;
-    border: 0.5px solid rgb(203, 202, 202);
-    background-color: white;
-    margin-bottom: 64px;
+    padding: 1rem;
+
+    &__button {
+      display: flex;
+      flex-direction: column;
+      padding: 1.5rem 0 1.5rem 0;
+      gap: 5px;
+      border: 0.5px solid rgb(203, 202, 202);
+      background-color: white;
+    }
+    &__button-left {
+      flex-basis: 50%;
+      border-left: none;
+    }
+    &__button-right {
+      flex-basis: 50%;
+      border-right: none;
+      align-items: flex-end;
+    }
+    &__title {
+      font-family: $heading-ff;
+      font-weight: $heading-regular;
+      font-size: $h3;
+    }
+    &__subtitle {
+      font-family: $body-ff;
+      font-weight: $body-regular;
+      font-size: $body-md;
+      opacity: 50%;
+    }
   }
-  &__button-left {
-    flex-basis: 50%;
-    border-left: none;
-  }
-  &__button-right {
-    flex-basis: 50%;
-    border-right: none;
-    align-items: flex-end;
-  }
-  &__title {
-    font-family: $heading-ff;
-    font-weight: $heading-regular;
-    font-size: $h3;
-  }
-  &__subtitle {
-    font-family: $body-ff;
-    font-weight: $body-regular;
-    font-size: $body-md;
-    opacity: 50%;
+}
+@include md {
+  .browser {
+    min-width: 700px;
   }
 }

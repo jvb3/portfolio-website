@@ -1,0 +1,147 @@
+@import "../mixins";
+
+@include sm {
+  .img-tablet {
+    display: none;
+  }
+  .img-desktop {
+    display: none;
+  }
+
+  .portfolio-grid {
+    min-width: 375px;
+
+    .img-container {
+      padding: 0 1rem 1rem 1rem;
+    }
+    .content-container {
+      padding: 1rem;
+    }
+    .hr-divider {
+      margin: 1rem 0 1.5rem 0;
+    }
+    .heading {
+      padding: 1rem 0 1rem 0;
+    }
+    .content {
+      padding: 1rem 0 2rem 0;
+    }
+    .button {
+      margin: 0 0 2rem 0;
+    }
+    .project__img {
+      width: 100%;
+      max-width: 100%;
+    }
+  }
+}
+
+@include md {
+  .grid-container {
+    min-width: 700px;
+  }
+  .portfolio-grid {
+    display: grid;
+    min-width: 700px;
+    grid-template-columns: repeat(2, 50%);
+  }
+  .mobile-nav-bar {
+    display: none;
+  }
+  .nav-bar {
+    display: flex;
+  }
+  .img-tablet {
+    display: block;
+  }
+  .img-container {
+    align-self: center;
+  }
+  .content-container {
+    padding: 0 1rem 0 1rem !important;
+  }
+  .hr-divider-top {
+    width: 281px;
+    margin: 2rem 0 2rem 0 !important;
+  }
+  .hr-divider-bottom {
+    width: 281px;
+    margin: 2rem 0 2rem 0 !important;
+  }
+  .heading {
+    padding: 1rem 0 1rem 0;
+  }
+
+  .img-mobile {
+    display: none;
+  }
+  .img-tablet {
+    display: block;
+  }
+
+  .img-container-bookmark {
+    grid-column: 2;
+    grid-row: 1;
+  }
+
+  .content-container-bookmark {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .img-container-fylo {
+    grid-column: 2;
+    grid-row: 1;
+  }
+  .content-container-fylo {
+    grid-column: 1;
+    grid-row: 1;
+  }
+  .contact {
+    padding: 3rem 2rem 3rem 2rem;
+    &__hr-divider {
+      width: 50px;
+    }
+  }
+  .contact__button {
+    margin: 0;
+  }
+}
+
+@include lg {
+  .portfolio-grid {
+    padding-top: 1rem;
+  }
+  .img-tablet {
+    display: none;
+  }
+  .img-desktop {
+    display: block;
+  }
+  .content-container {
+    display: grid;
+    grid-template-rows: repeat(8, 77.75px);
+    margin: 0 10rem;
+  }
+  .index__hr-divider-top {
+    grid-row: 1;
+    margin: 0 !important;
+  }
+  .index__heading {
+    grid-row: 3;
+  }
+  .index__content {
+    grid-row: 4;
+  }
+  .index__button {
+    margin-top: 3rem !important;
+    grid-column: 1;
+    grid-row: 6;
+  }
+
+  .index__hr-divider-bottom {
+    grid-column: 1;
+    grid-row: 8;
+    margin: 0 !important;
+    align-self: end;
+  }
+}

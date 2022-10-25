@@ -3,9 +3,9 @@ import React from "react";
 const FyloBackground = () => {
   return (
     <main className="container grid-container">
-      <section className="project">
-        <p className="heading">Project Background</p>
-        <p className="content">
+      <section className="project project-grid">
+        <p className="heading project__sub-heading">Project Background</p>
+        <p className="content project__content">
           This project was a front-end challenge from Frontend Mentor. It’s a
           platform that enables you to practice building websites to a design
           and project brief. Each challenge includes mobile and desktop designs

@@ -1,17 +1,57 @@
 @import "../base-styles";
+@import "../mixins";
 
-.contact {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+//MOBILE STYLES
 
-  &__heading {
-    font-size: $h2;
-    font-weight: $heading-bold;
-    font-family: $heading-ff;
-    line-height: 42px;
-    padding: 0 2rem 2rem 2rem;
-    text-align: center;
+@include sm {
+  .contact {
+    display: grid;
+    place-items: center;
+    padding: 3rem 0 3rem 0;
+
+    &__heading {
+      font-size: $h2;
+      font-weight: $heading-bold;
+      font-family: $heading-ff;
+      line-height: 55px;
+      padding: 0 2rem 2rem 2rem;
+      text-align: center;
+    }
+  }
+}
+//TABLET STYLES
+@include md {
+  .contact {
+    min-width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 3rem 1rem 3rem 1rem;
+
+    &__heading {
+      text-align: left;
+      padding: 0;
+      flex-basis: 350px;
+    }
+    &__hr-divider {
+      height: 1px;
+      width: 75px;
+      background-color: #33323d;
+      opacity: 20%;
+    }
+    &__button {
+      margin: 0;
+    }
+  }
+}
+
+@include lg {
+  .contact {
+    margin: 2rem 0 2rem 0 !important;
+    min-width: 1440px;
+
+    &__hr-divider {
+      width: 786px !important;
+    }
   }
 }

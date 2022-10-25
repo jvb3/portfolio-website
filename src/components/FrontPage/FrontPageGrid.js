@@ -1,5 +1,6 @@
 import React from "react";
-import MobileNavBar from "./MobileNavBar";
+import MobileNavBar from "../../MobileNavBar";
+import NavBar from "../../NavBar";
 import FrontPageHeader from "./FrontPageHeader";
 import AboutMe from "./AboutMe";
 import Contact from "./Contact";
@@ -8,15 +9,16 @@ import DropDownMenu from "./DropDownMenu";
 
 const FrontPageGrid = ({ handleClick, handleMenu, showMenu }) => {
   return (
-    <main className="container grid-container">
+    <main className="front-page-grid grid-container">
       <MobileNavBar handleMenu={handleMenu} showMenu={showMenu} />
       {showMenu ? (
-        <section className="mobile-nav-bar">
+        <section>
           <DropDownMenu />
         </section>
       ) : (
         ""
       )}
+      <NavBar />
       <FrontPageHeader handleClick={handleClick} />
       <AboutMe />
       <Contact />

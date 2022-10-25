@@ -2,9 +2,9 @@ import React from "react";
 
 const ManageBackground = () => {
   return (
-    <main className="container grid-container">
-      <section className="project">
-        <p className="heading">Project Background</p>
+    <main className="manage-container grid-container">
+      <section className="project project-grid">
+        <p className="heading project__sub-heading">Project Background</p>
         <p className="content">
           This project was a front-end challenge from Frontend Mentor. It’s a
           platform that enables you to practice building websites to a design

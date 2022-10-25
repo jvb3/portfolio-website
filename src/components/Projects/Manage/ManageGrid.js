@@ -1,29 +1,31 @@
 import React from "react";
 import ManageHeader from "./ManageHeader";
-import MobileNavBar from "../../FrontPage/MobileNavBar";
+import MobileNavBar from "../../../MobileNavBar";
 import DropDownMenu from "../../FrontPage/DropDownMenu";
+import NavBar from "../../../NavBar";
 import ManageBackground from "./ManageBackground";
 import ManagePreviews from "./ManagePreviews";
-import ManageBrowserBtn from "./ManageBrowserBtn";
+import BrowserBtn from "../../../BrowserBtn";
 import Contact from "../../FrontPage/Contact";
 import Footer from "../../FrontPage/Footer";
 
 const ManageGrid = ({ handleMenu, showMenu }) => {
   return (
     <div>
-      <section className="container grid-container">
+      <section className="manage-container grid-container">
         <MobileNavBar handleMenu={handleMenu} showMenu={showMenu} />
         {showMenu ? (
-          <section className="mobile-nav-bar">
+          <section>
             <DropDownMenu />
           </section>
         ) : (
           ""
         )}
+        <NavBar />
         <ManageHeader />
         <ManageBackground />
         <ManagePreviews />
-        <ManageBrowserBtn />
+        <BrowserBtn />
         <Contact />
         <Footer />
       </section>

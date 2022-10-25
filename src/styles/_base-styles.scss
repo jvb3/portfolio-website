@@ -37,36 +37,11 @@ body {
   background-color: rgb(215, 215, 215);
 }
 
-.container {
-  width: 375px;
-}
-
 .grid-container {
-  display: grid;
-  grid-template-columns: 375px;
-  background-color: white;
+  width: 375px;
   margin: 0 auto;
-  &__mobile-navbar {
-    padding: 1rem;
-  }
-  &__front-page-header {
-    padding: 0 1rem 2rem 1rem;
-  }
-  &__about-me {
-    padding: 0 1rem 2rem 1rem;
-  }
-  &__contact {
-    padding: 0 1rem 2rem 1rem;
-  }
-  &__project {
-    padding: 0 1rem 2rem 1rem;
-  }
-  &__contact-page {
-    padding: 0 1rem 2rem 1rem;
-  }
-  &__contact-form {
-    padding: 0 1rem 2rem 1rem;
-  }
+  background-color: white;
+  position: relative;
 }
 
 .button {
@@ -95,21 +70,17 @@ button:hover {
 
 .hr-divider {
   height: 1px;
-  width: 343px;
   background-color: #33323d;
   opacity: 20%;
-  margin-top: 2rem;
 }
 
 .heading {
   font-size: $h2;
   font-weight: $heading-bold;
   font-family: $heading-ff;
-  padding: 24px 0 24px 0;
 }
 .content {
   line-height: 30px;
-  padding-bottom: 24px;
 }
 a,
 a:hover,

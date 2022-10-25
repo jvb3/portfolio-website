@@ -1,18 +1,5 @@
-.mobile-nav-bar {
-  display: flex;
-  justify-content: space-between;
-  position: relative;
+@import "../mixins";
 
-  &__img {
-    align-self: center;
-  }
-  &__close {
-    font-size: 20px;
-  }
-  &__img:hover {
-    cursor: pointer;
-  }
-  &__close:hover {
-    cursor: pointer;
-  }
+.mobile-nav-bar__close:hover {
+  cursor: pointer;
 }

@@ -1,23 +1,148 @@
 @import "../base-styles";
+@import "../mixins";
 
-.profile {
-  &__img {
-    width: 100%;
-    max-width: 100%;
-    padding-bottom: 32px;
-  }
+//MOBILE STYLES
 
-  &__heading {
-    font-size: $h2;
-    font-weight: $heading-bold;
-    font-family: $heading-ff;
-    padding: 24px 0 24px 0;
+@include sm {
+  .profile {
+    &__img {
+      width: 100%;
+      max-width: 100%;
+      padding-bottom: 32px;
+      padding: 0 1rem 2rem 1rem;
+    }
+
+    &__heading {
+      font-size: $h2;
+      font-weight: $heading-bold;
+      font-family: $heading-ff;
+      padding: 2rem 0 2rem 1rem;
+    }
+    &__content {
+      padding: 0 1rem 1rem 1rem;
+      line-height: 30px;
+    }
+    &__btn-container {
+      padding: 1rem 1rem 5rem 1rem;
+    }
+    &__img-desktop {
+      display: none;
+    }
+    &__hr-divider-top {
+      margin: 0 1rem 0 1rem;
+    }
+    &__hr-divider-bottom {
+      margin: 0 1rem 0 1rem;
+    }
   }
-  &__content {
-    line-height: 30px;
-    padding-bottom: 24px;
+}
+
+//TABLET STYLES
+
+@include md {
+  .profile {
+    display: grid;
+    padding: 1rem;
+    min-width: 700px;
+    grid-template-areas:
+      "img img img img dividerTop"
+      "img img img img heading"
+      "img img img img content"
+      "img img img img button"
+      "img img img img dividerBottom";
+
+    &__img {
+      display: none;
+    }
+    &__img-tablet {
+      display: block;
+      grid-area: img;
+      width: 100%;
+      height: 700px;
+    }
+    &__img-desktop {
+      display: none;
+    }
+    &__hr-divider-top {
+      width: 280px;
+      grid-area: dividerTop;
+      justify-self: center;
+    }
+    &__hr-divider-bottom {
+      width: 280px;
+      grid-area: dividerBottom;
+      justify-self: center;
+      align-self: end;
+    }
+    &__heading {
+      grid-area: heading;
+      margin-left: 2.5rem !important;
+    }
+    &__content {
+      padding: 0;
+      margin-left: 2.5rem;
+      margin-right: 1rem;
+      grid-area: content;
+    }
+    &__btn-container {
+      padding: 0;
+      grid-area: button;
+      margin: 1rem 0 0 2.5rem;
+    }
   }
-  &__btn-container {
-    padding-bottom: 40px;
+  .button {
+    margin: 0 0 0 0 !important;
+  }
+}
+
+@include lg {
+  .profile {
+    min-width: 1400px;
+
+    &__img-tablet {
+      display: none;
+    }
+    &__img-desktop {
+      display: block;
+      grid-area: img;
+      width: 100%;
+    }
+
+    grid-template-areas:
+      "img  dividerTop"
+      "img  heading"
+      "img  content"
+      "img  button"
+      "img  dividerBottom";
+
+    &__hr-divider-top {
+      grid-area: dividerTop;
+      place-self: center;
+      width: 338px !important;
+    }
+
+    &__heading {
+      grid-area: heading;
+      margin: 0 !important;
+      place-self: center;
+      padding: 2rem 0 2rem 7.5rem !important;
+    }
+    &__content {
+      grid-area: content;
+      place-self: center;
+      padding: 0 31% 0 31%;
+      margin: 0;
+    }
+    &__btn-container {
+      grid-area: button;
+      place-self: center;
+      margin: 0;
+      padding: 2rem 0 2rem 0;
+    }
+    &__hr-divider-bottom {
+      grid-area: dividerBottom;
+      place-self: center;
+      width: 338px !important;
+    }
   }
 }

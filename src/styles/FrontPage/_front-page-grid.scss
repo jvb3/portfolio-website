@@ -1,0 +1,16 @@
+@import "../mixins";
+
+@include sm {
+  .front-page-grid {
+    position: relative;
+  }
+}
+
+@include md {
+  .grid-container {
+    min-width: 700px;
+  }
+  .front-page-grid {
+    min-width: 700px;
+  }
+}
